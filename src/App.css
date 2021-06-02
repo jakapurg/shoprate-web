@@ -1,5 +1,6 @@
-.App {
+.app {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
@@ -26,6 +27,86 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.grow {
+  flex-grow:1
+}
+
+
+.shopsGrid {
+  width:500;
+  height:450
+}
+
+.infoIcon {
+  color: white;
+}
+.shops {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  height:100%;
+  background-color: white;
+  margin-left:3px;
+}
+
+paper {
+  padding:2
+}
+
+.search{
+  position: relative;
+  background-color: rgba(210,210,210);
+  width:100%;
+  margin:2;
+  display:flex;
+  padding-left:5px;
+}
+.searchIcon {
+  position: absolute;
+  padding:0 2;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:auto
+}
+
+.details {
+  background-color: white;
+}
+
+.navigation {
+  margin-bottom:35px;
+}
+
+.marginButton {
+  margin:10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color:inherit;
+}
+
+.typeSelect {
+  margin-left:20%;
+}
+
+.ratings{
+  margin-left:3px;
+}
+
+.topMargin {
+  margin-top:20%;
+}
+
+.editButton {
+  background-color: darkorange;
+  margin-left:6px;
 }
 
 @keyframes App-logo-spin {
